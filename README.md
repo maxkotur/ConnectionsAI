@@ -1,6 +1,7 @@
 # ConnectionsAI
 AI/ML Project to solve the Connections NYT Game
 https://www.nytimes.com/games/connections
+
 The games gives 16 words which must be grouped into 4 groups.
 Each group would be related with a title which will be given once you get
 that specific group.
