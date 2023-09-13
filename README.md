@@ -26,3 +26,13 @@ Still have some doubts about giving the model the titles or if it should guess t
 The overall implementation is still a work in progress...
 
 Will post if updated.
+
+Here is how my initial implementation will be:
+
+BERT or Transformer-based Models:
+
+Fine-tune a pre-trained transformer model like BERT on the classification task.
+
+Convert the input sentence or list of words into embeddings using the fine-tuned model.
+
+Apply clustering algorithms or custom logic to group the embeddings into four clusters.
