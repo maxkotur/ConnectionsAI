@@ -3,7 +3,7 @@ AI/ML Project to solve the Connections NYT Game
 https://www.nytimes.com/games/connections
 
 The aim of the game is that, given 16 words, the player must find 4 groups of 4 that are somehow connected.
-Guess the connection right and the category is revealed.
+Guess the connection right and the category is revealed!
 
 For example:
 
