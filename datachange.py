@@ -7,13 +7,13 @@ def text_to_df():
 
     file = open("data.txt",  encoding="utf8")
     for line in file:
-        if line == "\n" or line[0] not in colors:
+        if line[0] not in colors:
             continue
 
         string = line[2:].split(":")
         title = string[0].lower()
-        words = string[1].strip().lower()
-        words = words.split(", ")
+        words = string[1].strip().lower().replace(" ", "")
+        words = words.split(",")
         data = {title: words}
         dataset.update(data)
 
@@ -24,7 +24,7 @@ def text_to_df():
     df = df.reset_index()
 
     # Rename columns
-    df.columns = ['Titles', 'Word1', 'Word2', 'Word3', 'Word4']
+    df.columns = ['titles', 'word1', 'word2', 'word3', 'word4']
     print(df)
     return df
     
